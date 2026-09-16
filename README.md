@@ -8,7 +8,7 @@
 
 ![status](https://img.shields.io/badge/status-active--development-blue)
 ![stack](https://img.shields.io/badge/stack-React%20%2B%20Express%20%2B%20OSRM-black)
-![license](https://img.shields.io/badge/license-MIT-green)
+
 
 </div>
 
@@ -62,19 +62,19 @@ be real routing.
 
 ```
 ┌────────────────────┐
-│   React Frontend    │   click-to-place map · live state · result panel
-└──────────┬───────────┘
+│   React Frontend   │   click-to-place map · live state · result panel
+└──────────┬─────────┘
            │ POST /api/optimize
-┌──────────▼───────────┐
-│  Express Backend      │   receives locations, orchestrates the pipeline
-└──────────┬───────────┘
+┌──────────▼─────────┐
+│  Express Backend   │   receives locations, orchestrates the pipeline
+└──────────┬─────────┘
            │
-┌──────────▼───────────┐
-│        OSRM            │   travel-time matrix  →  TSP solver  →  road geometry
-└──────────┬───────────┘
+┌──────────▼─────────┐
+│        OSRM        │   travel-time matrix  →  TSP solver  →  road geometry
+└──────────┬─────────┘
            │ optimized route + geometry
-┌──────────▼───────────┐
-│   Back to React        │   polyline drawn on real roads + summary cards
+┌──────────▼─────────┐
+│   Back to React    │   polyline drawn on real roads + summary cards
 └────────────────────┘
 ```
 
@@ -152,6 +152,6 @@ That's the part worth looking at.
 
 <div align="center">
 
-*Built as part of an academic delivery-logistics project · MIT License*
+*Built as part of an academic delivery-logistics project .*
 
 </div>
